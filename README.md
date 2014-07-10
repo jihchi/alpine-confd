@@ -3,6 +3,9 @@
 [confd](https://github.com/kelseyhightower/confd) allows to manage local application
 configuration files using templates and data from etcd.
 
+## Volumes
+
+- `/etc/confd` to allow configuration
 
 ## Standalone
 
@@ -16,7 +19,7 @@ You can run it using a configuration volume (see [configuration guide](https://g
 
 Or directly from command line:
 
-    docker run -t aegypius/confd confd -node http://etcd-server:4001
+    docker run -t aegypius/confd -node http://etcd-server:4001
 
 ... where etcd-server is the IP or host of your etcd server
 
