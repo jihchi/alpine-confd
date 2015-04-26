@@ -1,4 +1,5 @@
-FROM aegypius/golang
+FROM kiasaki/alpine-golang
+MAINTAINER Archie Lee <achi@987.tw>
 
 ENV CONFD_VERSION=master
 
