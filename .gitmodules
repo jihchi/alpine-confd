@@ -1,0 +1,4 @@
+[submodule "confd"]
+	path = confd
+	url = git@github.com:kelseyhightower/confd.git
+	branch = master
