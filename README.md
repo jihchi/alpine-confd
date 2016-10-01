@@ -1,6 +1,6 @@
 # alpine-confd
 
-Same as [aegypius/docker-confd](https://github.com/aegypius/docker-confd) expect that using [kiasaki/alpine-golang](https://github.com/kiasaki/docker-alpine-golang) as base image.
+Same as [aegypius/docker-confd](https://github.com/aegypius/docker-confd) expect that using [golang:1-alpine](https://hub.docker.com/_/golang) as base image.
 
 # confd
 
