@@ -30,7 +30,7 @@ Or directly from command line:
 
 ## As a base image
 
-This image is based on ```ubuntu:latest``` image to use confd as a base image,
+This image is based on ```golang:1-alpine``` image to use confd as a base image,
 simply update the ```FROM``` line from your dockerfile :
 
     FROM jihchi/alpine-confd
